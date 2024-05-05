@@ -1,0 +1,9 @@
+p {
+    color: red;
+}
+
+.title {
+    background: black;
+    color: aqua;
+    padding: 15px;
+}
