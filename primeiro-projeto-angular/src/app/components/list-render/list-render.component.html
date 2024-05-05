@@ -1,0 +1,12 @@
+<div class="class">
+    <p>list-render works!</p>
+    <br>
+    <p style="color: crimson;">Para o correto funcionamento desse componete, deve subir o server local na raiz do projeto. exemplo: npm run server</p>
+    <br>
+    <li *ngFor="let animal of animals">
+         Nome : <a routerLink="/list/{{ animal.id }}">{{ animal.name }}</a> - Tipo {{ animal.type }}
+         <button (click)="showAge(animal)">Show Age</button>&nbsp;
+         <button (click)="removeAnimal(animal)">Exluir</button>         
+    </li>
+    <h3>{{ animalDetails }}</h3>
+</div>

@@ -1,0 +1,12 @@
+<p>if-render works!</p>
+<div class="class">
+    <div *ngIf="canShow"> Estamos mostrando isso p foi permitido</div>
+    <h2 *ngIf="name === 'Cremildo'; else nameNotFound"> O nome foi encontrado!!! Porópopó </h2>
+    
+
+    <ng-template #nameNotFound>
+        
+          Welcome back, friend.
+        
+      </ng-template>
+</div>

@@ -1,0 +1,34 @@
+{
+  "animals": [
+    {
+      "id": "6",
+      "name": "Paco",
+      "type": "Dog",
+      "age": 5
+    },
+    {
+      "id": "7",
+      "name": "Cacau",
+      "type": "Dog",
+      "age": 6
+    },
+    {
+      "id": "8",
+      "name": "Chavinho",
+      "type": "Cat",
+      "age": 7
+    },
+    {
+      "id": "9",
+      "name": "Aria",
+      "type": "Bird",
+      "age": 2
+    },
+    {
+      "id": "10",
+      "name": "Barto",
+      "type": "Horse",
+      "age": 3
+    }
+  ]
+}
